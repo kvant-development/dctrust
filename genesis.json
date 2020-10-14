@@ -1,0 +1,213 @@
+{
+    "genesis_time": "2020-10-14T10:45:00Z",
+    "chain_id": "dctrust-mainnet-1",
+    "consensus_params": {
+        "block": {
+            "max_bytes": "10000000",
+            "max_gas": "100000",
+            "time_iota_ms": "1000"
+        },
+        "evidence": {
+            "max_age": "1000",
+            "max_age_num_blocks": "1000",
+            "max_age_duration": "86400000000000"
+        },
+        "validator": {
+            "pub_key_types": [
+                "ed25519"
+            ]
+        }
+    },
+    "app_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "app_state": {
+        "start_height": "0",
+        "validators": [
+            {
+                "reward_address": "Kx1a618a623aba2d2c96dc7a615458cab6c6a3bfb1",
+                "total_bip_stake": "50000000000000000000000000",
+                "pub_key": "Kpf463531f654bdde6f65f89271b78a58108419a1c5dc89b65de14bc7028d2779e",
+                "commission": "100",
+                "accum_reward": "0",
+                "absent_times": "________________________"
+            },
+            {
+                "reward_address": "Kx3f6f5738e6d44d15f3c39ac90d9fbb4c2eb314db",
+                "total_bip_stake": "50000000000000000000000000",
+                "pub_key": "Kp6f7b22a1257a18ecfde9ec894acdc137d5377b846c24f6f7f72b9b6ed47d4437",
+                "commission": "100",
+                "accum_reward": "0",
+                "absent_times": "________________________"
+            },
+            {
+                "reward_address": "Kx8bea5548cb606fab7587c1e2bf3b5a4d2288c0dc",
+                "total_bip_stake": "1000000000000000000000000000",
+                "pub_key": "Kp3d1bdb760b7a03ffe6141be50271ea59b50567c5122c830120b3224855e9f307",
+                "commission": "100",
+                "accum_reward": "0",
+                "absent_times": "________________________"
+            },
+            {
+                "reward_address": "Kxfb6f8b91212547905bc8c6d33c372424dceacdae",
+                "total_bip_stake": "1000000000000000000000000000",
+                "pub_key": "Kp4f6d782026ee8d5027a743bc706d76dc75cf9ee3448f6df1ae5c8037bda32b7a",
+                "commission": "100",
+                "accum_reward": "0",
+                "absent_times": "________________________"
+            }
+        ],
+        "candidates": [
+            {
+                "reward_address": "Kx1a618a623aba2d2c96dc7a615458cab6c6a3bfb1",
+                "owner_address": "Kx1a618a623aba2d2c96dc7a615458cab6c6a3bfb1",
+                "total_bip_stake": "50000000000000000000000000",
+                "pub_key": "Kpf463531f654bdde6f65f89271b78a58108419a1c5dc89b65de14bc7028d2779e",
+                "commission": "100",
+                "stakes": [
+                    {
+                        "owner": "Kx1a618a623aba2d2c96dc7a615458cab6c6a3bfb1",
+                        "coin": "DCT",
+                        "value": "50000000000000000000000",
+                        "bip_value": "50000000000000000000000"
+                    }
+                ],
+                "created_at_block": "0",
+                "status": 2
+            },
+            {
+                "reward_address": "Kx3f6f5738e6d44d15f3c39ac90d9fbb4c2eb314db",
+                "owner_address": "Kx3f6f5738e6d44d15f3c39ac90d9fbb4c2eb314db",
+                "total_bip_stake": "50000000000000000000000000",
+                "pub_key": "Kp6f7b22a1257a18ecfde9ec894acdc137d5377b846c24f6f7f72b9b6ed47d4437",
+                "commission": "100",
+                "stakes": [
+                    {
+                        "owner": "Kx3f6f5738e6d44d15f3c39ac90d9fbb4c2eb314db",
+                        "coin": "DCT",
+                        "value": "50000000000000000000000000",
+                        "bip_value": "50000000000000000000000000"
+                    }
+                ],
+                "created_at_block": "0",
+                "status": 2
+            },
+            {
+                "reward_address": "Kx8bea5548cb606fab7587c1e2bf3b5a4d2288c0dc",
+                "owner_address": "Kx8bea5548cb606fab7587c1e2bf3b5a4d2288c0dc",
+                "total_bip_stake": "100000000000000000000000000",
+                "pub_key": "Kp3d1bdb760b7a03ffe6141be50271ea59b50567c5122c830120b3224855e9f307",
+                "commission": "100",
+                "stakes": [
+                    {
+                        "owner": "Kx8bea5548cb606fab7587c1e2bf3b5a4d2288c0dc",
+                        "coin": "DCT",
+                        "value": "100000000000000000000000000",
+                        "bip_value": "100000000000000000000000000"
+                    }
+                ],
+                "created_at_block": "0",
+                "status": 2
+            },
+            {
+                "reward_address": "Kxfb6f8b91212547905bc8c6d33c372424dceacdae",
+                "owner_address": "Kxfb6f8b91212547905bc8c6d33c372424dceacdae",
+                "total_bip_stake": "100000000000000000000000000",
+                "pub_key": "Kp4f6d782026ee8d5027a743bc706d76dc75cf9ee3448f6df1ae5c8037bda32b7a",
+                "commission": "100",
+                "stakes": [
+                    {
+                        "owner": "Kxfb6f8b91212547905bc8c6d33c372424dceacdae",
+                        "coin": "DCT",
+                        "value": "100000000000000000000000000",
+                        "bip_value": "100000000000000000000000000"
+                    }
+                ],
+                "created_at_block": "0",
+                "status": 2
+            }
+        ],
+        "accounts": [
+            {
+                "address": "Kx958f94ed33df095bb3ef07627af084f23cfe4f5e",
+                "balance": [
+                    {
+                        "coin": "DCT",
+                        "value": "4400000000000000000000000000"
+                    }
+                ],
+                "nonce": "0"
+            },
+            {
+                "address": "Kx5c0a6417272f99d2321864962e4d65bedc723386",
+                "balance": [
+                    {
+                        "coin": "DCT",
+                        "value": "1100000000000000000000000000"
+                    }
+                ],
+                "nonce": "0"
+            },
+            {
+                "address": "Kx804f93cfe930edf0ab5bc77e86b4e2809568ff8e",
+                "balance": [
+                    {
+                        "coin": "DCT",
+                        "value": "1100000000000000000000000000"
+                    }
+                ],
+                "nonce": "0"
+            },
+            {
+                "address": "Kx1a618a623aba2d2c96dc7a615458cab6c6a3bfb1",
+                "balance": [
+                    {
+                        "coin": "DCT",
+                        "value": "50000000000000000000000000"
+                    }
+                ],
+                "nonce": "0"
+            },
+            {
+                "address": "Kx3f6f5738e6d44d15f3c39ac90d9fbb4c2eb314db",
+                "balance": [
+                    {
+                        "coin": "DCT",
+                        "value": "50000000000000000000000000"
+                    }
+                ],
+                "nonce": "0"
+            },
+            {
+                "address": "Kx8bea5548cb606fab7587c1e2bf3b5a4d2288c0dc",
+                "balance": [
+                    {
+                        "coin": "DCT",
+                        "value": "100000000000000000000000000"
+                    }
+                ],
+                "nonce": "0"
+            },
+            {
+                "address": "Kxfb6f8b91212547905bc8c6d33c372424dceacdae",
+                "balance": [
+                    {
+                        "coin": "DCT",
+                        "value": "100000000000000000000000000"
+                    }
+                ],
+                "nonce": "0"
+            },
+            {
+                "address": "Kxe43abacc054cb15469e65c8a68fb2fe20190b7db",
+                "balance": [
+                    {
+                        "coin": "DCT",
+                        "value": "100000000000000000000000000"
+                    }
+                ],
+                "nonce": "0"
+            }
+        ],
+        "max_gas": "100000",
+        "total_slashed": "0"
+    }
+}
